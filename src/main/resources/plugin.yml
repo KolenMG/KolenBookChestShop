@@ -1,0 +1,49 @@
+name: BookChestShops
+version: 2.0.0
+main: com.bookchest.shops.BookChestShops
+api-version: '1.21'
+author: YourName
+description: Simple shop plugin using books - supports chests, barrels, and custom items
+
+permissions:
+  bookshop.*:
+    description: All BookChestShops permissions
+    default: op
+    children:
+      bookshop.create: true
+      bookshop.use: true
+      bookshop.help: true
+      bookshop.info: true
+      bookshop.template: true
+      bookshop.admin: true
+  
+  bookshop.create:
+    description: Allows creating chest/barrel shops
+    default: true
+  
+  bookshop.use:
+    description: Allows buying from shops
+    default: true
+  
+  bookshop.help:
+    description: Allows viewing help
+    default: true
+  
+  bookshop.info:
+    description: Allows viewing shop statistics
+    default: true
+  
+  bookshop.template:
+    description: Allows getting template books
+    default: true
+  
+  bookshop.admin:
+    description: Admin commands, bypass shop limits, break any shop
+    default: op
+
+commands:
+  bookshop:
+    description: BookChestShops main command
+    usage: /bookshop [help|info|template|reload]
+    aliases: [bshop, bs, shop]
+    permission: bookshop.help

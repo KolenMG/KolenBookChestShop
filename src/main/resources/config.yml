@@ -1,0 +1,41 @@
+# BookChestShops Configuration
+# Version 2.0.0
+
+# Shop Settings
+shop:
+  book-name: "Shop"  # Required book name (rename Book and Quill in anvil)
+  max-per-player: -1  # Max shops per player (-1 = unlimited)
+  allow-double-chests: true  # Enable double chest shops
+
+# Protection Settings
+protection:
+  block-hoppers: true
+  block-pistons: true
+  block-explosions: true
+
+# Messages (Bedrock & Java friendly)
+messages:
+  prefix: "&8[&6BookShop&8]&r "
+  
+  # Success
+  purchase-success: "&a✓ Transaction complete!"
+  shop-created: "&aShop created! Players can now buy from this container."
+  shop-removed: "&cShop removed."
+  
+  # Errors
+  no-permission: "&cYou don't have permission to do that."
+  invalid-payment: "&cWrong payment for slot {slot}. Required: {amount}x {item}"
+  out-of-stock: "&cThis shop is out of stock in slot {slot}."
+  own-shop: "&cYou can't buy from your own shop."
+  transaction-failed: "&cTransaction failed. Items restored."
+  invalid-book-format: "&cInvalid book format. Use: slot amount item"
+  
+  # Info
+  shop-owner: "&7Shop owner: &e{owner}"
+  price-info: "&7Slot {slot}: &e{amount}x {item}"
+  help-header: "&6=== BookChestShops Help ==="
+  help-create: "&e1. Place a chest/barrel and add items to sell"
+  help-items: "&e2. Get a template: &f/bookshop template"
+  help-book: "&e3. Edit prices, rename to '&fShop&e' in anvil"
+  help-format: "&e4. &fShift + Left-Click &ethe container with book"
+  help-example: "&7   Format: &fslot amount item &7(e.g., &f0 5 DIAMOND&7)"
