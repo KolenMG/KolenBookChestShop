@@ -1,7 +1,7 @@
 # 📚 BookChestShops
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21+-brightgreen.svg)](https://www.spigotmc.org/)
-[![Plugin Version](https://img.shields.io/badge/Version-2.0.0-blue.svg)](https://github.com/yourusername/bookchestshops/releases)
+[![Plugin Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/yourusername/bookchestshops/releases)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > A simple, intuitive shop plugin that uses books to create chest-based player shops. No complex commands, just books and chests!
