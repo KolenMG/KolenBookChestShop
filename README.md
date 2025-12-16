@@ -175,18 +175,6 @@ graph LR
 
 ## 📖 Documentation
 
-Full documentation is available in [DOCUMENTATION.md](DOCUMENTATION.md)
-
-**Topics covered:**
-- Detailed setup guide
-- Transaction system explained
-- Custom items support
-- Troubleshooting
-- Best practices
-- API for developers
-
----
-
 ## 🔧 Advanced Usage
 
 ### Custom Items from Resource Packs
